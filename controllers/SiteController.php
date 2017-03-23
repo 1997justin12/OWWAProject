@@ -7,7 +7,7 @@ use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
-use app\models\OwwaForm;
+use app\models\SignupForm;
 use app\models\ContactForm;
 
 class SiteController extends Controller
@@ -65,14 +65,9 @@ class SiteController extends Controller
     	{
     		return $this->actionLogin();
     	}
-        return $this->actionRequestForm();
+        return $this->actionHome();
     }
 
-    /**
-     * Login action.
-     *
-     * @return string
-     */
     public function actionLogin()
     {
     	$this->layout = 'login';
@@ -85,22 +80,28 @@ class SiteController extends Controller
             return $this->goBack();
         }
         return $this->render('login', [
-            'model' => $model,
+            'model' => $model
         ]);
     }
 
-    public function actionRequestForm()
+    public function actionHome()
     {
-        $model = new OwwaForm();
-        return $this->render('requestForm',
-               ['model' => $model]);
+        return $this->render('home');
     }
 
-    /**
-     * Logout action.
-     *
-     * @return string
-     */
+    public function actionSignup()
+    {
+        $this->layout = 'signup';
+        $model = new SignUpForm();
+        if($model->load(Yii::$app->request->post()) && $model->createUserAccount()){
+            return $this->actionLogin();
+        }
+        return $this->render('signup',
+            ['signup' => $model
+        ]);
+    }
+
+    
     public function actionLogout()
     {
         Yii::$app->user->logout();

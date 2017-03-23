@@ -2,15 +2,15 @@
 	namespace app\models;
 	use yii\db\ActiveRecord;
 
-	class RequestForm extends ActiveRecord
+	class NatureOfCase extends ActiveRecord
 	{
 		const STATUS_INACTIVE = 0;
 		const STATUC_ACTIVE  =1;
 
 
-		public function tableName()
+		public static  function tableName()
 		{
-			return '{{request_form}}';
+			return '{{nature_of_case}}';
 		}
 	}
 

@@ -27,7 +27,7 @@ AppAsset::register($this);
 
 <div class="wrap">
     <nav class="navbar navbar-default navbar-fixed-top">   
-    <?= Html::a('Signup', ['site/signup'], ['class'=>'btn btn-success pull-right', 'style' => 'margin-top: 10px; margin-right: 5px; border-radius: 0 0 0 0']) ?>
+    <?= Html::a('Login', ['site/login'], ['class'=>'btn btn-success pull-right', 'style' => 'margin-top: 10px; margin-right: 5px; border-radius: 0 0 0 0']) ?>
     </nav>
 
     <div class="container-fluid" style="position: relative;top: 51px;padding:0">
