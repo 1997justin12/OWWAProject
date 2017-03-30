@@ -1,17 +1,7 @@
 <?php
-
-/* @var $this yii\web\View */
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use kartik\date\DatePicker;
-use app\models\NatureOfCase;
-use app\models\FiledCases;
-use yii\helpers\ArrayHelper;
-
-$cases = NatureOfCase::find()->all();
-$casesFiled = FiledCases::find()->all();
-$options = ArrayHelper::map($cases, 'id', 'case_type');
-
 $this->title = 'OWWA Web Help System';
 ?>
   <?php $form = ActiveForm::begin([
@@ -37,7 +27,8 @@ $this->title = 'OWWA Web Help System';
       -webkit-box-shadow: none !important;
       -moz-box-shadow: none !important;
       box-shadow: none !important;
-      font-size: .8em
+      font-size: .8em;
+      font-weight: bold;
     }
     .checkbox-inline,.radio-inline
     {
@@ -50,34 +41,21 @@ $this->title = 'OWWA Web Help System';
     }
 </style>
 
-
-
 <div class="row" style="padding-left: 15px;padding-right: 20px">
+   <div class="col-sm-9">
 
-   <div class="col-sm-9">
-       <div class="row">
-            <div class="col-sm-12 text-center">
-                 <h1 style="text-transform: uppercase">request for assistance form</h1>
-            </div>
-       </div>
-   </div>
-   
-   <div class="col-sm-9">
-       <div class="row" style="margin-bottom: 20px">
+           <div class="row" style="margin-bottom: 20px">
+             <div class="col-sm-12  ">
+              <div class="row">
+                <div class="col-sm-12 text-center">
+                     <h1 style="text-transform: uppercase">request for assistance form</h1>
+                </div>
+              </div>
+           </div>
+
            <div class="col-sm-12" >
               <div class="col-sm-12" >
                 <div class="col-sm-6" >
-             <!--  <?= $form->field($model, 'dateFiled')->widget(DatePicker::classname(), [
-                      'options' => ['placeholder' => 'Date Filed'],
-                      'type' => DatePicker::TYPE_INPUT,
-                      'removeButton' => false,
-                      'pluginOptions' => [
-                          'autoclose'=>true,
-                          'format' => 'mm/dd/yyyy'
-                          ]
-                      ]);
-                ?> -->
-
                   <?= $form->field($model,'dateFiled',[
                         'inputOptions' => [
                         'placeholder' => $model->getAttributeLabel( 'dateFiled' ),
@@ -92,6 +70,7 @@ $this->title = 'OWWA Web Help System';
                   <?= $form->field($model,'welfareCaseNumber',[
                         'inputOptions' => [
                         'placeholder' => $model->getAttributeLabel( 'welfareCaseNumber' ),
+                        'value' => $wcNumber+1
                         ]
                       ])->textInput()?>
                 </div>
@@ -101,6 +80,7 @@ $this->title = 'OWWA Web Help System';
                   <?= $form->field($model,'familyName',[
                         'inputOptions' => [
                         'placeholder' => $model->getAttributeLabel( 'familyName' ),
+                        'value' => $user->family_name
                         ]
                       ])->textInput()?>
                 </div>
@@ -108,6 +88,7 @@ $this->title = 'OWWA Web Help System';
                  <?= $form->field($model,'givenName',[
                         'inputOptions' => [
                         'placeholder' => $model->getAttributeLabel( 'givenName' ),
+                        'value' => $user->first_name
                         ]
                       ])->textInput()?> 
                 </div>
@@ -115,6 +96,7 @@ $this->title = 'OWWA Web Help System';
                  <?= $form->field($model,'middleName',[
                         'inputOptions' => [
                         'placeholder' => $model->getAttributeLabel( 'middleName' ),
+                        'value' => $user->middle_name
                         ]
                       ])->textInput()?> 
                 </div>
@@ -124,6 +106,7 @@ $this->title = 'OWWA Web Help System';
                  <?= $form->field($model,'completeAddress',[
                         'inputOptions' => [
                         'placeholder' => $model->getAttributeLabel( 'completeAddress' ),
+                        'value' => $user->complete_address
                         ]
                       ])->textInput()?> 
                 </div>
@@ -133,6 +116,7 @@ $this->title = 'OWWA Web Help System';
                   <?= $form->field($model,'relationshipToOfw',[
                         'inputOptions' => [
                         'placeholder' => $model->getAttributeLabel( 'relationshipToOfw' ),
+                        'value' => $user->relation
                         ]
                       ])->textInput()?>
                 </div>
@@ -140,6 +124,7 @@ $this->title = 'OWWA Web Help System';
                   <?= $form->field($model,'contactNumber',[
                         'inputOptions' => [
                         'placeholder' => $model->getAttributeLabel( 'contactNumber' ),
+                        'value' => $user->contact_number
                         ]
                       ])->textInput()?>
                 </div>
@@ -244,11 +229,16 @@ $this->title = 'OWWA Web Help System';
               </div>
              <div class="col-sm-12"> 
                <div class="col-sm-3">
-                 <?= $form->field($model,'birthdate',[
-                  'inputOptions' => [
-                    'placeholder' => $model->getAttributeLabel('birthdate')
-                  ]
-                 ]); ?>
+                  <?= $form->field($model, 'birthdate')->widget(DatePicker::classname(), [
+                      'options' => ['placeholder' =>  $model->getAttributeLabel('birthdate')],
+                      'type' => DatePicker::TYPE_INPUT,
+                      'removeButton' => false,
+                      'pluginOptions' => [
+                          'autoclose'=>true,
+                          'format' => 'mm/dd/yyyy'
+                          ]
+                      ]);
+                ?> 
                </div>
                <div class="col-sm-2">
                  <?= $form->field($model,'age',[
@@ -326,11 +316,16 @@ $this->title = 'OWWA Web Help System';
                  ])?>
                </div>
                <div class="col-sm-6">
-                 <?=  $form->field($model,'departureDate',[
-                  'inputOptions' => [
-                    'placeholder' => $model->getAttributeLabel('departureDate')
-                  ]
-                 ])?>
+                 <?= $form->field($model, 'departureDate')->widget(DatePicker::classname(), [
+                      'options' => ['placeholder' => $model->getAttributeLabel('departureDate')],
+                      'type' => DatePicker::TYPE_INPUT,
+                      'removeButton' => false,
+                      'pluginOptions' => [
+                          'autoclose'=>true,
+                          'format' => 'mm/dd/yyyy'
+                          ]
+                      ]);
+                ?> 
                </div>
              </div>
              <div class="col-sm-12">
@@ -515,12 +510,7 @@ $this->title = 'OWWA Web Help System';
    <div class="col-sm-3" style="margin-top: 20px">
        
        <div class="row">
-            <div class="col-sm-12">
-                 <ul class="list-group">
-                  <?= Html::a('Request Form', ['request/'], ['class'=>'list-group-item', 'style' => 'margin-top: 10px; margin-right: 5px; border-radius: 0 0 0 0']) ?>
-                  <?= Html::a('My Request', ['request/my-request'], ['class'=>'list-group-item ', 'style' => ' margin-right: 5px; border-radius: 0 0 0 0']) ?>
-                </ul>
-            </div>
+            <?php echo $this->render('_sidebar'); ?>
        </div>
 
        <div class="row" style="margin-top: 30px">
@@ -532,13 +522,7 @@ $this->title = 'OWWA Web Help System';
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-sm-12 text-center">
-                            <h1><?php 
-                              $characters = "0123456789";
-                              $getGenPassword = substr(str_shuffle($characters), 0, 3);
-                              echo $getGenPassword.count($casesFiled)+1;
-
-
-                             ?></h1>
+                            <label># <span><?php echo ++$wcNumber;?></span></label>
                         </div>
                     </div>
                     <div class="row text-center">

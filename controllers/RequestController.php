@@ -3,26 +3,45 @@ namespace app\controllers;
 
 use Yii;
 use yii\web\Controller;
+use yii\helpers\ArrayHelper;
 use app\models\OwwaForm;
+use app\models\NatureOfCase;
+use app\models\User;
+use app\models\RecordsCase;
 
 class RequestController extends Controller
 {
 	
 	public function actionIndex()
     {
-        $model = new OwwaForm();
+     
+        return $this->render('myrequest');
+    }
+
+    public function actionRequestForm()
+    {
+    	
+    	$model = new OwwaForm();
+        $record = RecordsCase::find()->count();
+
+        $user = User::find()
+            ->where(['id' => Yii::$app->user->id])
+            ->one();
+
+        $cases = NatureOfCase::find()->all();
+        $options = ArrayHelper::map($cases, 'id', 'case_name');
+
+
         if($model->load(Yii::$app->request->post()))
         {
             $model->createRequest();
         }
         return $this->render('requestForm',
-               ['model' => $model
+               ['model' => $model,
+                'options' => $options,
+                'user' => $user,
+                'wcNumber' => $record
         ]);
-    }
-
-    public function actionMyRequest()
-    {
-    	return $this->render('myrequest');
     }
 }
 

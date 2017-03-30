@@ -46,7 +46,21 @@ class User extends ActiveRecord implements IdentityInterface
         return null;
     }
 
+    public function getDetails($id)
+    {
+        $user = User::find()
+            ->where(['id' => $id])
+            ->one();
+
+            return $user;
+    }
+
     public function getId()
+    {
+        return $this->id;
+    }
+
+    public function getLast()
     {
         return $this->id;
     }

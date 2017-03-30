@@ -4,8 +4,7 @@ namespace app\models;
 
 use Yii;
 use yii\base\Model;
-use app\models\FiledCases;
-use app\models\CaseRecord;
+
 
 class OwwaForm extends Model 
 {
@@ -20,49 +19,17 @@ class OwwaForm extends Model
 
 	public function createRequest()
 	{
-		$filedCases = new FiledCases();
+		$case = new RecordsCase();
+		$filedCases = new RecordsDocument();
+		$filedCases = new RecordsEmployer();
+		$request = new RecordsRequest();
+		$filedCases = new ForeignAgency();
+		$filedCases = new LocalAgency();
+		$filedCases = new AcquaintanceAbroad();
+		$filedCases = new OFW();
 		
-
-		$filedCases->dateFiled = date('Y-m-d');
-		$filedCases->welfareCaseNumber = $this->welfareCaseNumber;
-		$filedCases->familyName = $this->familyName;
-		$filedCases->givenName = $this->givenName;
-		$filedCases->middleName = $this->middleName;
-		$filedCases->completeAddress = $this->completeAddress;
-		$filedCases->relationshipToOfw = $this->relationshipToOfw;
-		$filedCases->contactNumber = $this->contactNumber;
-		$filedCases->ofwFamilyName = $this->ofwFamilyName;
-		$filedCases->ofwGivenName = $this->ofwGivenName;
-		$filedCases->ofwMiddleName = $this->ofwMiddleName;
-		$filedCases->ofwOtherName = $this->ofwOtherName;
-		$filedCases->ofwContactNumber = $this->ofwContactNumber;
-		$filedCases->sex = $this->sex[1];
-		$filedCases->roamingNumber = $this->roamingNumber;
-		$filedCases->birthdate = $this->birthdate;
-		$filedCases->age = $this->age;
-		$filedCases->civilStatus = $this->civilStatus[1];
-		$filedCases->classification = $this->classification[1];
-		$filedCases->natureOfWork = $this->natureOfWork;
-		$filedCases->highestEducation = $this->highestEducation;
-		$filedCases->destination = $this->destination;
-		$filedCases->departureDate = $this->departureDate;
-		$filedCases->nameOfEmployer = $this->nameOfEmployer;
-		$filedCases->addressOfEmployer = $this->adressOfEmployer;
-		$filedCases->contactNumberEmployer = $this->contactNumberEmployer;
-		$filedCases->telNumberEmployer = $this->telNumberEmployer;
-		$filedCases->foreignAgency = $this->foreignAgency;
-		$filedCases->telFoxNumberFore = $this->telFoxNumberFore;
-		$filedCases->philippineAgency = $this->philippineAgency;
-		$filedCases->philippineAgencyAddress = $this->philippineAgencyAddress;
-		$filedCases->telNumberPhil = $this->telNumberPhil;
-		$filedCases->telFoxNumberPhil = $this->telFoxNumberPhil;
-		$filedCases->contactPersonAgency = $this->contactPersonAgency;
-		$filedCases->mobilePhone = $this->mobilePhone;
-		$filedCases->acquaintanceAbroad = $this->acquaintanceAbroad;
-		$filedCases->acquaintanceContact = $this->acquaintanceContact;
-		$filedCases->assistanceSought = $this->assistanceSought;
+		$request
 		
-
 		if($filedCases->save())
 		{
 			$id = $filedCases->id;
@@ -75,11 +42,6 @@ class OwwaForm extends Model
 				unset($caseRecord);
 			}
 		}
-
-
-	
-		
-
 	}
 
 	public function getCaseNumber()
