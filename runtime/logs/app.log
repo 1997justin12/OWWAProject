@@ -36776,3 +36776,1508 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1490874939.059
     'REQUEST_TIME' => 1490874939
 ]
+2017-03-30 14:38:29 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\controllers\RecordsRequest' not found' in C:\xampp\htdocs\OWWAProject\controllers\RequestController.php:25
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-03-30 14:38:28 [::1][-][-][info][application] $_POST = [
+    '_csrf' => 'QW5FaDV4amV1JRQrBzQGLA8KaCFdKD0vJAJxC1pOGQwKAyMBWxQOAA=='
+    'OwwaForm' => [
+        'welfareCaseNumber' => '1'
+        'familyName' => 'Cedeno'
+        'givenName' => 'Justin'
+        'middleName' => 'Alicuban'
+        'completeAddress' => 'Sitio Tamabaca Toril Davao City'
+        'relationshipToOfw' => 'niece/nephew'
+        'contactNumber' => '09991236068'
+        'natureOfCase' => [
+            0 => '1'
+            1 => '4'
+            2 => '7'
+            3 => '10'
+            4 => '11'
+        ]
+        'ofwFamilyName' => 'asd'
+        'ofwGivenName' => 'asd'
+        'ofwMiddleName' => 'asd'
+        'ofwOtherName' => 'das'
+        'ofwContactNumber' => 'asdas'
+        'sex' => [
+            0 => ''
+            1 => 'female'
+        ]
+        'roamingNumber' => 'dad'
+        'birthdate' => '03/29/2017'
+        'age' => '12'
+        'civilStatus' => [
+            0 => ''
+            1 => 'married'
+        ]
+        'classification' => [
+            0 => ''
+            1 => '2'
+        ]
+        'natureOfWork' => 'asd'
+        'highestEducation' => 'dasd'
+        'destination' => 'asd'
+        'departureDate' => '03/24/2017'
+        'nameOfEmployer' => 'asd'
+        'adressOfEmployer' => 'asd'
+        'contactNumberEmployer' => 'asda'
+        'telNumberEmployer' => 'sdasd'
+        'foreignAgency' => 'dasd'
+        'telFoxNumberFore' => 'sdas'
+        'philippineAgency' => 'asda'
+        'philippineAgencyAddress' => 'adad'
+        'telNumberPhil' => 'dadasd'
+        'telFoxNumberPhil' => 'ad'
+        'contactPersonAgency' => 'ada'
+        'mobilePhone' => 'asd'
+        'acquaintanceAbroad' => 'adasd'
+        'acquaintanceContact' => 'adad'
+        'supportingDocument' => [
+            0 => ''
+            1 => 'b'
+            2 => 'e'
+        ]
+        'assistanceSought' => 'asdasd'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '2194e7e8a39659bdf585a3cdb4178e18f751b36375690cf47d54d7d3a60c2f6da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4KQC2LlINd-IhPWJel4co6siKmfinlde\";}'
+    'PHPSESSID' => 'e4fe8daecjo8n3ebrvof5flue2'
+    '_identity' => 'c3022361eb9db04f98717741de5a07b93354ebe132012486b2d6be7d5a3a7418a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '1832'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/OWWAProject/web/request/request-form'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=2194e7e8a39659bdf585a3cdb4178e18f751b36375690cf47d54d7d3a60c2f6da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224KQC2LlINd-IhPWJel4co6siKmfinlde%22%3B%7D; PHPSESSID=e4fe8daecjo8n3ebrvof5flue2; _identity=c3022361eb9db04f98717741de5a07b93354ebe132012486b2d6be7d5a3a7418a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_DNT' => '1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Agustine\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/OWWAProject/web/index.php'
+    'REMOTE_PORT' => '58721'
+    'REDIRECT_URL' => '/OWWAProject/web/request/request-form'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/OWWAProject/web/request/request-form'
+    'SCRIPT_NAME' => '/OWWAProject/web/index.php'
+    'PHP_SELF' => '/OWWAProject/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490877508.765
+    'REQUEST_TIME' => 1490877508
+]
+2017-03-30 14:39:01 [::1][1][e4fe8daecjo8n3ebrvof5flue2][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'date_format() expects parameter 1 to be DateTimeInterface, null given' in C:\xampp\htdocs\OWWAProject\models\OwwaForm.php:32
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'date_format() e...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\OWWAProject\models\OwwaForm.php(32): date_format(NULL, 'Y-m-d')
+#2 C:\xampp\htdocs\OWWAProject\controllers\RequestController.php(37): app\models\OwwaForm->createRequest()
+#3 [internal function]: app\controllers\RequestController->actionRequestForm()
+#4 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('request-form', Array)
+#7 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('request/request...', Array)
+#8 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\OWWAProject\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2017-03-30 14:39:01 [::1][1][e4fe8daecjo8n3ebrvof5flue2][info][application] $_POST = [
+    '_csrf' => 'QW5FaDV4amV1JRQrBzQGLA8KaCFdKD0vJAJxC1pOGQwKAyMBWxQOAA=='
+    'OwwaForm' => [
+        'welfareCaseNumber' => '1'
+        'familyName' => 'Cedeno'
+        'givenName' => 'Justin'
+        'middleName' => 'Alicuban'
+        'completeAddress' => 'Sitio Tamabaca Toril Davao City'
+        'relationshipToOfw' => 'niece/nephew'
+        'contactNumber' => '09991236068'
+        'natureOfCase' => [
+            0 => '1'
+            1 => '4'
+            2 => '7'
+            3 => '10'
+            4 => '11'
+        ]
+        'ofwFamilyName' => 'asd'
+        'ofwGivenName' => 'asd'
+        'ofwMiddleName' => 'asd'
+        'ofwOtherName' => 'das'
+        'ofwContactNumber' => 'asdas'
+        'sex' => [
+            0 => ''
+            1 => 'female'
+        ]
+        'roamingNumber' => 'dad'
+        'birthdate' => '03/29/2017'
+        'age' => '12'
+        'civilStatus' => [
+            0 => ''
+            1 => 'married'
+        ]
+        'classification' => [
+            0 => ''
+            1 => '2'
+        ]
+        'natureOfWork' => 'asd'
+        'highestEducation' => 'dasd'
+        'destination' => 'asd'
+        'departureDate' => '03/24/2017'
+        'nameOfEmployer' => 'asd'
+        'adressOfEmployer' => 'asd'
+        'contactNumberEmployer' => 'asda'
+        'telNumberEmployer' => 'sdasd'
+        'foreignAgency' => 'dasd'
+        'telFoxNumberFore' => 'sdas'
+        'philippineAgency' => 'asda'
+        'philippineAgencyAddress' => 'adad'
+        'telNumberPhil' => 'dadasd'
+        'telFoxNumberPhil' => 'ad'
+        'contactPersonAgency' => 'ada'
+        'mobilePhone' => 'asd'
+        'acquaintanceAbroad' => 'adasd'
+        'acquaintanceContact' => 'adad'
+        'supportingDocument' => [
+            0 => ''
+            1 => 'b'
+            2 => 'e'
+        ]
+        'assistanceSought' => 'asdasd'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '2194e7e8a39659bdf585a3cdb4178e18f751b36375690cf47d54d7d3a60c2f6da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4KQC2LlINd-IhPWJel4co6siKmfinlde\";}'
+    'PHPSESSID' => 'e4fe8daecjo8n3ebrvof5flue2'
+    '_identity' => 'c3022361eb9db04f98717741de5a07b93354ebe132012486b2d6be7d5a3a7418a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '1832'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/OWWAProject/web/request/request-form'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=2194e7e8a39659bdf585a3cdb4178e18f751b36375690cf47d54d7d3a60c2f6da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224KQC2LlINd-IhPWJel4co6siKmfinlde%22%3B%7D; PHPSESSID=e4fe8daecjo8n3ebrvof5flue2; _identity=c3022361eb9db04f98717741de5a07b93354ebe132012486b2d6be7d5a3a7418a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_DNT' => '1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Agustine\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/OWWAProject/web/index.php'
+    'REMOTE_PORT' => '58756'
+    'REDIRECT_URL' => '/OWWAProject/web/request/request-form'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/OWWAProject/web/request/request-form'
+    'SCRIPT_NAME' => '/OWWAProject/web/index.php'
+    'PHP_SELF' => '/OWWAProject/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490877541.212
+    'REQUEST_TIME' => 1490877541
+]
+2017-03-30 14:40:48 [::1][1][e4fe8daecjo8n3ebrvof5flue2][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: record' in C:\xampp\htdocs\OWWAProject\controllers\RequestController.php:44
+Stack trace:
+#0 C:\xampp\htdocs\OWWAProject\controllers\RequestController.php(44): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 [internal function]: app\controllers\RequestController->actionRequestForm()
+#2 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('request-form', Array)
+#5 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('request/request...', Array)
+#6 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\xampp\htdocs\OWWAProject\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2017-03-30 14:40:48 [::1][1][e4fe8daecjo8n3ebrvof5flue2][info][application] $_POST = [
+    '_csrf' => 'QW5FaDV4amV1JRQrBzQGLA8KaCFdKD0vJAJxC1pOGQwKAyMBWxQOAA=='
+    'OwwaForm' => [
+        'welfareCaseNumber' => '1'
+        'familyName' => 'Cedeno'
+        'givenName' => 'Justin'
+        'middleName' => 'Alicuban'
+        'completeAddress' => 'Sitio Tamabaca Toril Davao City'
+        'relationshipToOfw' => 'niece/nephew'
+        'contactNumber' => '09991236068'
+        'natureOfCase' => [
+            0 => '1'
+            1 => '4'
+            2 => '7'
+            3 => '10'
+            4 => '11'
+        ]
+        'ofwFamilyName' => 'asd'
+        'ofwGivenName' => 'asd'
+        'ofwMiddleName' => 'asd'
+        'ofwOtherName' => 'das'
+        'ofwContactNumber' => 'asdas'
+        'sex' => [
+            0 => ''
+            1 => 'female'
+        ]
+        'roamingNumber' => 'dad'
+        'birthdate' => '03/29/2017'
+        'age' => '12'
+        'civilStatus' => [
+            0 => ''
+            1 => 'married'
+        ]
+        'classification' => [
+            0 => ''
+            1 => '2'
+        ]
+        'natureOfWork' => 'asd'
+        'highestEducation' => 'dasd'
+        'destination' => 'asd'
+        'departureDate' => '03/24/2017'
+        'nameOfEmployer' => 'asd'
+        'adressOfEmployer' => 'asd'
+        'contactNumberEmployer' => 'asda'
+        'telNumberEmployer' => 'sdasd'
+        'foreignAgency' => 'dasd'
+        'telFoxNumberFore' => 'sdas'
+        'philippineAgency' => 'asda'
+        'philippineAgencyAddress' => 'adad'
+        'telNumberPhil' => 'dadasd'
+        'telFoxNumberPhil' => 'ad'
+        'contactPersonAgency' => 'ada'
+        'mobilePhone' => 'asd'
+        'acquaintanceAbroad' => 'adasd'
+        'acquaintanceContact' => 'adad'
+        'supportingDocument' => [
+            0 => ''
+            1 => 'b'
+            2 => 'e'
+        ]
+        'assistanceSought' => 'asdasd'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '2194e7e8a39659bdf585a3cdb4178e18f751b36375690cf47d54d7d3a60c2f6da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4KQC2LlINd-IhPWJel4co6siKmfinlde\";}'
+    'PHPSESSID' => 'e4fe8daecjo8n3ebrvof5flue2'
+    '_identity' => 'c3022361eb9db04f98717741de5a07b93354ebe132012486b2d6be7d5a3a7418a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '1832'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/OWWAProject/web/request/request-form'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=2194e7e8a39659bdf585a3cdb4178e18f751b36375690cf47d54d7d3a60c2f6da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224KQC2LlINd-IhPWJel4co6siKmfinlde%22%3B%7D; PHPSESSID=e4fe8daecjo8n3ebrvof5flue2; _identity=c3022361eb9db04f98717741de5a07b93354ebe132012486b2d6be7d5a3a7418a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_DNT' => '1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Agustine\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/OWWAProject/web/index.php'
+    'REMOTE_PORT' => '58902'
+    'REDIRECT_URL' => '/OWWAProject/web/request/request-form'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/OWWAProject/web/request/request-form'
+    'SCRIPT_NAME' => '/OWWAProject/web/index.php'
+    'PHP_SELF' => '/OWWAProject/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490877648.16
+    'REQUEST_TIME' => 1490877648
+]
+2017-03-30 14:54:42 [::1][1][e4fe8daecjo8n3ebrvof5flue2][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'date' cannot be null' in C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\Command.php:846
+Stack trace:
+#0 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\Command.php(846): PDOStatement->execute()
+#1 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\Schema.php(454): yii\db\Command->execute()
+#2 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\ActiveRecord.php(494): yii\db\Schema->insert('<span class="st...', '[<span class="s...')
+#3 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\ActiveRecord.php(461): yii\db\ActiveRecord->insertInternal('<span class="ke...')
+#4 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\BaseActiveRecord.php(635): yii\db\ActiveRecord->insert('<span class="ke...', '<span class="ke...')
+#5 C:\xampp\htdocs\OWWAProject\models\OwwaForm.php(35): yii\db\BaseActiveRecord->save()
+#6 C:\xampp\htdocs\OWWAProject\controllers\RequestController.php(37): app\models\OwwaForm->createRequest()
+#7 [internal function]: app\controllers\RequestController->actionRequestForm()
+#8 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#9 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams('[]')
+#10 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('<span class="st...', '[]')
+#11 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('<span class="st...', '[]')
+#12 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\OWWAProject\web\index.php(12): yii\base\Application->run()
+#14 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'date' cannot be null
+The SQL being executed was: INSERT INTO `records_request` (`user_id`, `date`) VALUES (1, NULL)' in C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\Schema.php:636
+Stack trace:
+#0 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\Command.php(856): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `re...')
+#1 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\Schema.php(454): yii\db\Command->execute()
+#2 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\ActiveRecord.php(494): yii\db\Schema->insert('<span class="st...', '[<span class="s...')
+#3 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\ActiveRecord.php(461): yii\db\ActiveRecord->insertInternal('<span class="ke...')
+#4 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\BaseActiveRecord.php(635): yii\db\ActiveRecord->insert('<span class="ke...', '<span class="ke...')
+#5 C:\xampp\htdocs\OWWAProject\models\OwwaForm.php(35): yii\db\BaseActiveRecord->save()
+#6 C:\xampp\htdocs\OWWAProject\controllers\RequestController.php(37): app\models\OwwaForm->createRequest()
+#7 [internal function]: app\controllers\RequestController->actionRequestForm()
+#8 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#9 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams('[]')
+#10 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('<span class="st...', '[]')
+#11 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('<span class="st...', '[]')
+#12 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\OWWAProject\web\index.php(12): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1048
+    [2] => Column 'date' cannot be null
+)
+
+2017-03-30 14:54:42 [::1][1][e4fe8daecjo8n3ebrvof5flue2][info][application] $_POST = [
+    '_csrf' => 'OWpvZ2RjVTYNIT4kVi85f3cOQi4MMwJ8XAZbBAtVJl9yBwkOCg8xUw=='
+    'OwwaForm' => [
+        'welfareCaseNumber' => '5'
+        'familyName' => 'Cedeno'
+        'givenName' => 'Justin'
+        'middleName' => 'Alicuban'
+        'completeAddress' => 'Sitio Tamabaca Toril Davao City'
+        'relationshipToOfw' => 'niece/nephew'
+        'contactNumber' => '09991236068'
+        'natureOfCase' => [
+            0 => '8'
+            1 => '10'
+            2 => '11'
+            3 => '13'
+            4 => '14'
+        ]
+        'ofwFamilyName' => 'asd'
+        'ofwGivenName' => 'asd'
+        'ofwMiddleName' => 'asdasd'
+        'ofwOtherName' => 'asd'
+        'ofwContactNumber' => 'ad'
+        'sex' => [
+            0 => ''
+            1 => 'female'
+        ]
+        'roamingNumber' => 'ad'
+        'birthdate' => '03/22/2017'
+        'age' => '12'
+        'civilStatus' => [
+            0 => ''
+            1 => 'single'
+        ]
+        'classification' => [
+            0 => ''
+            1 => '2'
+        ]
+        'natureOfWork' => 'dad'
+        'highestEducation' => 'ad'
+        'destination' => 'd'
+        'departureDate' => '03-30-2017'
+        'nameOfEmployer' => 'asdsad'
+        'adressOfEmployer' => 'asd'
+        'contactNumberEmployer' => 'sdad'
+        'telNumberEmployer' => 'ad'
+        'foreignAgency' => 'ada'
+        'telFoxNumberFore' => 'sad'
+        'philippineAgency' => 'ad'
+        'philippineAgencyAddress' => 'asd'
+        'telNumberPhil' => 'sd'
+        'telFoxNumberPhil' => 'ad'
+        'contactPersonAgency' => 'sd'
+        'mobilePhone' => 'ad'
+        'acquaintanceAbroad' => 'ad'
+        'acquaintanceContact' => 'asd'
+        'supportingDocument' => [
+            0 => ''
+            1 => 'a'
+            2 => 'e'
+        ]
+        'assistanceSought' => 'asdasdas'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '2194e7e8a39659bdf585a3cdb4178e18f751b36375690cf47d54d7d3a60c2f6da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4KQC2LlINd-IhPWJel4co6siKmfinlde\";}'
+    'PHPSESSID' => 'e4fe8daecjo8n3ebrvof5flue2'
+    '_identity' => 'c3022361eb9db04f98717741de5a07b93354ebe132012486b2d6be7d5a3a7418a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '1811'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/OWWAProject/web/request/request-form'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=2194e7e8a39659bdf585a3cdb4178e18f751b36375690cf47d54d7d3a60c2f6da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224KQC2LlINd-IhPWJel4co6siKmfinlde%22%3B%7D; PHPSESSID=e4fe8daecjo8n3ebrvof5flue2; _identity=c3022361eb9db04f98717741de5a07b93354ebe132012486b2d6be7d5a3a7418a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_DNT' => '1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Agustine\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/OWWAProject/web/index.php'
+    'REMOTE_PORT' => '59898'
+    'REDIRECT_URL' => '/OWWAProject/web/request/request-form'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/OWWAProject/web/request/request-form'
+    'SCRIPT_NAME' => '/OWWAProject/web/index.php'
+    'PHP_SELF' => '/OWWAProject/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490878482.141
+    'REQUEST_TIME' => 1490878482
+]
+2017-03-30 14:55:44 [::1][1][e4fe8daecjo8n3ebrvof5flue2][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'date' cannot be null' in C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\Command.php:846
+Stack trace:
+#0 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\Command.php(846): PDOStatement->execute()
+#1 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\Schema.php(454): yii\db\Command->execute()
+#2 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\ActiveRecord.php(494): yii\db\Schema->insert('<span class="st...', '[<span class="s...')
+#3 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\ActiveRecord.php(461): yii\db\ActiveRecord->insertInternal('<span class="ke...')
+#4 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\BaseActiveRecord.php(635): yii\db\ActiveRecord->insert('<span class="ke...', '<span class="ke...')
+#5 C:\xampp\htdocs\OWWAProject\models\OwwaForm.php(35): yii\db\BaseActiveRecord->save()
+#6 C:\xampp\htdocs\OWWAProject\controllers\RequestController.php(37): app\models\OwwaForm->createRequest()
+#7 [internal function]: app\controllers\RequestController->actionRequestForm()
+#8 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#9 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams('[]')
+#10 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('<span class="st...', '[]')
+#11 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('<span class="st...', '[]')
+#12 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\OWWAProject\web\index.php(12): yii\base\Application->run()
+#14 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'date' cannot be null
+The SQL being executed was: INSERT INTO `records_request` (`user_id`, `date`) VALUES (1, NULL)' in C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\Schema.php:636
+Stack trace:
+#0 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\Command.php(856): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `re...')
+#1 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\Schema.php(454): yii\db\Command->execute()
+#2 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\ActiveRecord.php(494): yii\db\Schema->insert('<span class="st...', '[<span class="s...')
+#3 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\ActiveRecord.php(461): yii\db\ActiveRecord->insertInternal('<span class="ke...')
+#4 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\BaseActiveRecord.php(635): yii\db\ActiveRecord->insert('<span class="ke...', '<span class="ke...')
+#5 C:\xampp\htdocs\OWWAProject\models\OwwaForm.php(35): yii\db\BaseActiveRecord->save()
+#6 C:\xampp\htdocs\OWWAProject\controllers\RequestController.php(37): app\models\OwwaForm->createRequest()
+#7 [internal function]: app\controllers\RequestController->actionRequestForm()
+#8 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#9 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams('[]')
+#10 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('<span class="st...', '[]')
+#11 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('<span class="st...', '[]')
+#12 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\OWWAProject\web\index.php(12): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1048
+    [2] => Column 'date' cannot be null
+)
+
+2017-03-30 14:55:44 [::1][1][e4fe8daecjo8n3ebrvof5flue2][info][application] $_POST = [
+    '_csrf' => 'OWpvZ2RjVTYNIT4kVi85f3cOQi4MMwJ8XAZbBAtVJl9yBwkOCg8xUw=='
+    'OwwaForm' => [
+        'welfareCaseNumber' => '5'
+        'familyName' => 'Cedeno'
+        'givenName' => 'Justin'
+        'middleName' => 'Alicuban'
+        'completeAddress' => 'Sitio Tamabaca Toril Davao City'
+        'relationshipToOfw' => 'niece/nephew'
+        'contactNumber' => '09991236068'
+        'natureOfCase' => [
+            0 => '8'
+            1 => '10'
+            2 => '11'
+            3 => '13'
+            4 => '14'
+        ]
+        'ofwFamilyName' => 'asd'
+        'ofwGivenName' => 'asd'
+        'ofwMiddleName' => 'asdasd'
+        'ofwOtherName' => 'asd'
+        'ofwContactNumber' => 'ad'
+        'sex' => [
+            0 => ''
+            1 => 'female'
+        ]
+        'roamingNumber' => 'ad'
+        'birthdate' => '03/22/2017'
+        'age' => '12'
+        'civilStatus' => [
+            0 => ''
+            1 => 'single'
+        ]
+        'classification' => [
+            0 => ''
+            1 => '2'
+        ]
+        'natureOfWork' => 'dad'
+        'highestEducation' => 'ad'
+        'destination' => 'd'
+        'departureDate' => '03-30-2017'
+        'nameOfEmployer' => 'asdsad'
+        'adressOfEmployer' => 'asd'
+        'contactNumberEmployer' => 'sdad'
+        'telNumberEmployer' => 'ad'
+        'foreignAgency' => 'ada'
+        'telFoxNumberFore' => 'sad'
+        'philippineAgency' => 'ad'
+        'philippineAgencyAddress' => 'asd'
+        'telNumberPhil' => 'sd'
+        'telFoxNumberPhil' => 'ad'
+        'contactPersonAgency' => 'sd'
+        'mobilePhone' => 'ad'
+        'acquaintanceAbroad' => 'ad'
+        'acquaintanceContact' => 'asd'
+        'supportingDocument' => [
+            0 => ''
+            1 => 'a'
+            2 => 'e'
+        ]
+        'assistanceSought' => 'asdasdas'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '2194e7e8a39659bdf585a3cdb4178e18f751b36375690cf47d54d7d3a60c2f6da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4KQC2LlINd-IhPWJel4co6siKmfinlde\";}'
+    'PHPSESSID' => 'e4fe8daecjo8n3ebrvof5flue2'
+    '_identity' => 'c3022361eb9db04f98717741de5a07b93354ebe132012486b2d6be7d5a3a7418a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '1811'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/OWWAProject/web/request/request-form'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=2194e7e8a39659bdf585a3cdb4178e18f751b36375690cf47d54d7d3a60c2f6da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224KQC2LlINd-IhPWJel4co6siKmfinlde%22%3B%7D; PHPSESSID=e4fe8daecjo8n3ebrvof5flue2; _identity=c3022361eb9db04f98717741de5a07b93354ebe132012486b2d6be7d5a3a7418a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_DNT' => '1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Agustine\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/OWWAProject/web/index.php'
+    'REMOTE_PORT' => '59963'
+    'REDIRECT_URL' => '/OWWAProject/web/request/request-form'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/OWWAProject/web/request/request-form'
+    'SCRIPT_NAME' => '/OWWAProject/web/index.php'
+    'PHP_SELF' => '/OWWAProject/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490878544.511
+    'REQUEST_TIME' => 1490878544
+]
+2017-03-30 14:57:00 [::1][1][e4fe8daecjo8n3ebrvof5flue2][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'date' cannot be null' in C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\Command.php:846
+Stack trace:
+#0 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\Command.php(846): PDOStatement->execute()
+#1 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\Schema.php(454): yii\db\Command->execute()
+#2 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\ActiveRecord.php(494): yii\db\Schema->insert('<span class="st...', '[<span class="s...')
+#3 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\ActiveRecord.php(461): yii\db\ActiveRecord->insertInternal('<span class="ke...')
+#4 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\BaseActiveRecord.php(635): yii\db\ActiveRecord->insert('<span class="ke...', '<span class="ke...')
+#5 C:\xampp\htdocs\OWWAProject\models\OwwaForm.php(35): yii\db\BaseActiveRecord->save()
+#6 C:\xampp\htdocs\OWWAProject\controllers\RequestController.php(37): app\models\OwwaForm->createRequest()
+#7 [internal function]: app\controllers\RequestController->actionRequestForm()
+#8 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#9 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams('[]')
+#10 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('<span class="st...', '[]')
+#11 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('<span class="st...', '[]')
+#12 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\OWWAProject\web\index.php(12): yii\base\Application->run()
+#14 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'date' cannot be null
+The SQL being executed was: INSERT INTO `records_request` (`user_id`, `date`) VALUES (1, NULL)' in C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\Schema.php:636
+Stack trace:
+#0 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\Command.php(856): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `re...')
+#1 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\Schema.php(454): yii\db\Command->execute()
+#2 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\ActiveRecord.php(494): yii\db\Schema->insert('<span class="st...', '[<span class="s...')
+#3 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\ActiveRecord.php(461): yii\db\ActiveRecord->insertInternal('<span class="ke...')
+#4 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\BaseActiveRecord.php(635): yii\db\ActiveRecord->insert('<span class="ke...', '<span class="ke...')
+#5 C:\xampp\htdocs\OWWAProject\models\OwwaForm.php(35): yii\db\BaseActiveRecord->save()
+#6 C:\xampp\htdocs\OWWAProject\controllers\RequestController.php(37): app\models\OwwaForm->createRequest()
+#7 [internal function]: app\controllers\RequestController->actionRequestForm()
+#8 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#9 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams('[]')
+#10 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('<span class="st...', '[]')
+#11 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('<span class="st...', '[]')
+#12 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\OWWAProject\web\index.php(12): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1048
+    [2] => Column 'date' cannot be null
+)
+
+2017-03-30 14:57:00 [::1][1][e4fe8daecjo8n3ebrvof5flue2][info][application] $_POST = [
+    '_csrf' => 'MHdXSVh1TDYEPAYKajkgf34TegAwJRt8VRtjKjdDP197GjEgNhkoUw=='
+    'OwwaForm' => [
+        'welfareCaseNumber' => '5'
+        'familyName' => 'Cedeno'
+        'givenName' => 'Justin'
+        'middleName' => 'Alicuban'
+        'completeAddress' => 'Sitio Tamabaca Toril Davao City'
+        'relationshipToOfw' => 'niece/nephew'
+        'contactNumber' => '09991236068'
+        'natureOfCase' => [
+            0 => '4'
+            1 => '7'
+        ]
+        'ofwFamilyName' => 'dad'
+        'ofwGivenName' => 'as'
+        'ofwMiddleName' => 'asdasdsa'
+        'ofwOtherName' => 'sdasd'
+        'ofwContactNumber' => 'asd'
+        'sex' => [
+            0 => ''
+            1 => 'male'
+        ]
+        'roamingNumber' => 'dadasd'
+        'birthdate' => '03/30/2017'
+        'age' => 'asd'
+        'civilStatus' => [
+            0 => ''
+            1 => 'single'
+        ]
+        'classification' => [
+            0 => ''
+            1 => '2'
+        ]
+        'natureOfWork' => 'dsada'
+        'highestEducation' => 'ad'
+        'destination' => 'sad'
+        'departureDate' => '03-30-2017'
+        'nameOfEmployer' => 'sdasd'
+        'adressOfEmployer' => 'asd'
+        'contactNumberEmployer' => 'asdas'
+        'telNumberEmployer' => 'dasd'
+        'foreignAgency' => 'dasdasd'
+        'telFoxNumberFore' => 'asd'
+        'philippineAgency' => 'asdasd'
+        'philippineAgencyAddress' => 'asdas'
+        'telNumberPhil' => 'asdas'
+        'telFoxNumberPhil' => 'das'
+        'contactPersonAgency' => 'sddas'
+        'mobilePhone' => 'da'
+        'acquaintanceAbroad' => 'asd'
+        'acquaintanceContact' => 'asdas'
+        'supportingDocument' => [
+            0 => ''
+            1 => 'a'
+            2 => 'e'
+        ]
+        'assistanceSought' => 'sdasdas'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '2194e7e8a39659bdf585a3cdb4178e18f751b36375690cf47d54d7d3a60c2f6da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4KQC2LlINd-IhPWJel4co6siKmfinlde\";}'
+    'PHPSESSID' => 'e4fe8daecjo8n3ebrvof5flue2'
+    '_identity' => 'c3022361eb9db04f98717741de5a07b93354ebe132012486b2d6be7d5a3a7418a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '1734'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/OWWAProject/web/request/request-form'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=2194e7e8a39659bdf585a3cdb4178e18f751b36375690cf47d54d7d3a60c2f6da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224KQC2LlINd-IhPWJel4co6siKmfinlde%22%3B%7D; PHPSESSID=e4fe8daecjo8n3ebrvof5flue2; _identity=c3022361eb9db04f98717741de5a07b93354ebe132012486b2d6be7d5a3a7418a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_DNT' => '1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Agustine\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/OWWAProject/web/index.php'
+    'REMOTE_PORT' => '60062'
+    'REDIRECT_URL' => '/OWWAProject/web/request/request-form'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/OWWAProject/web/request/request-form'
+    'SCRIPT_NAME' => '/OWWAProject/web/index.php'
+    'PHP_SELF' => '/OWWAProject/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490878620.225
+    'REQUEST_TIME' => 1490878620
+]
+2017-04-06 00:58:26 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'project_owwa_101.records_request' doesn't exist' in C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\Command.php:902
+Stack trace:
+#0 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\Command.php(902): PDOStatement->execute()
+#1 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#2 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\Query.php(431): yii\db\Command->queryScalar()
+#3 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\ActiveQuery.php(334): yii\db\Query->queryScalar('<span class="st...', '<span class="ke...')
+#4 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\Query.php(319): yii\db\ActiveQuery->queryScalar('<span class="st...', '<span class="ke...')
+#5 C:\xampp\htdocs\OWWAProject\controllers\RequestController.php(25): yii\db\Query->count()
+#6 [internal function]: app\controllers\RequestController->actionRequestForm()
+#7 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#8 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams('[]')
+#9 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('<span class="st...', '[]')
+#10 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('<span class="st...', '[]')
+#11 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\OWWAProject\web\index.php(12): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'project_owwa_101.records_request' doesn't exist
+The SQL being executed was: SELECT COUNT(*) FROM `records_request`' in C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\Schema.php:636
+Stack trace:
+#0 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\Command.php(917): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#2 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\Query.php(431): yii\db\Command->queryScalar()
+#3 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\ActiveQuery.php(334): yii\db\Query->queryScalar('<span class="st...', '<span class="ke...')
+#4 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\db\Query.php(319): yii\db\ActiveQuery->queryScalar('<span class="st...', '<span class="ke...')
+#5 C:\xampp\htdocs\OWWAProject\controllers\RequestController.php(25): yii\db\Query->count()
+#6 [internal function]: app\controllers\RequestController->actionRequestForm()
+#7 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#8 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams('[]')
+#9 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('<span class="st...', '[]')
+#10 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('<span class="st...', '[]')
+#11 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\OWWAProject\web\index.php(12): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'project_owwa_101.records_request' doesn't exist
+)
+
+2017-04-06 00:58:26 [::1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'fljeoav4jmbmpj5vs0s79806g3'
+    '_csrf' => '55224628edfd8b2936bb26926b0869f6720dba03a75d951ab8e6cca1855cb470a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"L-bx6OUE-m1KG3dGpeuPnyetjzNEjD4c\";}'
+    '_identity' => 'c3022361eb9db04f98717741de5a07b93354ebe132012486b2d6be7d5a3a7418a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/OWWAProject/web/request'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=fljeoav4jmbmpj5vs0s79806g3; _csrf=55224628edfd8b2936bb26926b0869f6720dba03a75d951ab8e6cca1855cb470a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22L-bx6OUE-m1KG3dGpeuPnyetjzNEjD4c%22%3B%7D; _identity=c3022361eb9db04f98717741de5a07b93354ebe132012486b2d6be7d5a3a7418a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_DNT' => '1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Agustine\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/OWWAProject/web/index.php'
+    'REMOTE_PORT' => '55630'
+    'REDIRECT_URL' => '/OWWAProject/web/request/request-form'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/OWWAProject/web/request/request-form'
+    'SCRIPT_NAME' => '/OWWAProject/web/index.php'
+    'PHP_SELF' => '/OWWAProject/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491433106.458
+    'REQUEST_TIME' => 1491433106
+]
+2017-04-06 01:01:17 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\OwwaForm' not found' in C:\xampp\htdocs\OWWAProject\controllers\RequestController.php:23
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-04-06 01:01:17 [::1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'fljeoav4jmbmpj5vs0s79806g3'
+    '_csrf' => '55224628edfd8b2936bb26926b0869f6720dba03a75d951ab8e6cca1855cb470a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"L-bx6OUE-m1KG3dGpeuPnyetjzNEjD4c\";}'
+    '_identity' => 'c3022361eb9db04f98717741de5a07b93354ebe132012486b2d6be7d5a3a7418a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/OWWAProject/web/request'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=fljeoav4jmbmpj5vs0s79806g3; _csrf=55224628edfd8b2936bb26926b0869f6720dba03a75d951ab8e6cca1855cb470a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22L-bx6OUE-m1KG3dGpeuPnyetjzNEjD4c%22%3B%7D; _identity=c3022361eb9db04f98717741de5a07b93354ebe132012486b2d6be7d5a3a7418a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_DNT' => '1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Agustine\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/OWWAProject/web/index.php'
+    'REMOTE_PORT' => '55814'
+    'REDIRECT_URL' => '/OWWAProject/web/request/request-form'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/OWWAProject/web/request/request-form'
+    'SCRIPT_NAME' => '/OWWAProject/web/index.php'
+    'PHP_SELF' => '/OWWAProject/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491433277.517
+    'REQUEST_TIME' => 1491433277
+]
+2017-04-06 01:01:43 [::1][1][fljeoav4jmbmpj5vs0s79806g3][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\controllers\NatureOfCase' not found' in C:\xampp\htdocs\OWWAProject\controllers\RequestController.php:30
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-04-06 01:01:43 [::1][1][fljeoav4jmbmpj5vs0s79806g3][info][application] $_COOKIE = [
+    'PHPSESSID' => 'fljeoav4jmbmpj5vs0s79806g3'
+    '_csrf' => '55224628edfd8b2936bb26926b0869f6720dba03a75d951ab8e6cca1855cb470a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"L-bx6OUE-m1KG3dGpeuPnyetjzNEjD4c\";}'
+    '_identity' => 'c3022361eb9db04f98717741de5a07b93354ebe132012486b2d6be7d5a3a7418a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/OWWAProject/web/request'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=fljeoav4jmbmpj5vs0s79806g3; _csrf=55224628edfd8b2936bb26926b0869f6720dba03a75d951ab8e6cca1855cb470a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22L-bx6OUE-m1KG3dGpeuPnyetjzNEjD4c%22%3B%7D; _identity=c3022361eb9db04f98717741de5a07b93354ebe132012486b2d6be7d5a3a7418a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_DNT' => '1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Agustine\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/OWWAProject/web/index.php'
+    'REMOTE_PORT' => '55845'
+    'REDIRECT_URL' => '/OWWAProject/web/request/request-form'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/OWWAProject/web/request/request-form'
+    'SCRIPT_NAME' => '/OWWAProject/web/index.php'
+    'PHP_SELF' => '/OWWAProject/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491433303.413
+    'REQUEST_TIME' => 1491433303
+]
+2017-04-06 01:03:15 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ''user'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'' in C:\xampp\htdocs\OWWAProject\controllers\RequestController.php:39
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-04-06 01:03:15 [::1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'fljeoav4jmbmpj5vs0s79806g3'
+    '_csrf' => '55224628edfd8b2936bb26926b0869f6720dba03a75d951ab8e6cca1855cb470a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"L-bx6OUE-m1KG3dGpeuPnyetjzNEjD4c\";}'
+    '_identity' => 'c3022361eb9db04f98717741de5a07b93354ebe132012486b2d6be7d5a3a7418a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/OWWAProject/web/request'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=fljeoav4jmbmpj5vs0s79806g3; _csrf=55224628edfd8b2936bb26926b0869f6720dba03a75d951ab8e6cca1855cb470a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22L-bx6OUE-m1KG3dGpeuPnyetjzNEjD4c%22%3B%7D; _identity=c3022361eb9db04f98717741de5a07b93354ebe132012486b2d6be7d5a3a7418a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_DNT' => '1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Agustine\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/OWWAProject/web/index.php'
+    'REMOTE_PORT' => '55938'
+    'REDIRECT_URL' => '/OWWAProject/web/request/request-form'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/OWWAProject/web/request/request-form'
+    'SCRIPT_NAME' => '/OWWAProject/web/index.php'
+    'PHP_SELF' => '/OWWAProject/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491433395.333
+    'REQUEST_TIME' => 1491433395
+]
+2017-04-06 01:03:22 [::1][1][fljeoav4jmbmpj5vs0s79806g3][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: wcNumber' in C:\xampp\htdocs\OWWAProject\views\request\requestForm.php:74
+Stack trace:
+#0 C:\xampp\htdocs\OWWAProject\views\request\requestForm.php(74): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\RequestController))
+#4 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('requestForm', Array, Object(app\controllers\RequestController))
+#5 C:\xampp\htdocs\OWWAProject\controllers\RequestController.php(40): yii\base\Controller->render('requestForm', Array)
+#6 [internal function]: app\controllers\RequestController->actionRequestForm()
+#7 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('request-form', Array)
+#10 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('request/request...', Array)
+#11 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\OWWAProject\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2017-04-06 01:03:22 [::1][1][fljeoav4jmbmpj5vs0s79806g3][info][application] $_COOKIE = [
+    'PHPSESSID' => 'fljeoav4jmbmpj5vs0s79806g3'
+    '_csrf' => '55224628edfd8b2936bb26926b0869f6720dba03a75d951ab8e6cca1855cb470a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"L-bx6OUE-m1KG3dGpeuPnyetjzNEjD4c\";}'
+    '_identity' => 'c3022361eb9db04f98717741de5a07b93354ebe132012486b2d6be7d5a3a7418a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/OWWAProject/web/request'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=fljeoav4jmbmpj5vs0s79806g3; _csrf=55224628edfd8b2936bb26926b0869f6720dba03a75d951ab8e6cca1855cb470a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22L-bx6OUE-m1KG3dGpeuPnyetjzNEjD4c%22%3B%7D; _identity=c3022361eb9db04f98717741de5a07b93354ebe132012486b2d6be7d5a3a7418a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_DNT' => '1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Agustine\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/OWWAProject/web/index.php'
+    'REMOTE_PORT' => '55940'
+    'REDIRECT_URL' => '/OWWAProject/web/request/request-form'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/OWWAProject/web/request/request-form'
+    'SCRIPT_NAME' => '/OWWAProject/web/index.php'
+    'PHP_SELF' => '/OWWAProject/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491433402.62
+    'REQUEST_TIME' => 1491433402
+]
+2017-04-06 01:03:47 [::1][1][fljeoav4jmbmpj5vs0s79806g3][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: wcNumber' in C:\xampp\htdocs\OWWAProject\views\request\requestForm.php:74
+Stack trace:
+#0 C:\xampp\htdocs\OWWAProject\views\request\requestForm.php(74): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\RequestController))
+#4 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('requestForm', Array, Object(app\controllers\RequestController))
+#5 C:\xampp\htdocs\OWWAProject\controllers\RequestController.php(40): yii\base\Controller->render('requestForm', Array)
+#6 [internal function]: app\controllers\RequestController->actionRequestForm()
+#7 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('request-form', Array)
+#10 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('request/request...', Array)
+#11 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\OWWAProject\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2017-04-06 01:03:47 [::1][1][fljeoav4jmbmpj5vs0s79806g3][info][application] $_COOKIE = [
+    'PHPSESSID' => 'fljeoav4jmbmpj5vs0s79806g3'
+    '_csrf' => '55224628edfd8b2936bb26926b0869f6720dba03a75d951ab8e6cca1855cb470a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"L-bx6OUE-m1KG3dGpeuPnyetjzNEjD4c\";}'
+    '_identity' => 'c3022361eb9db04f98717741de5a07b93354ebe132012486b2d6be7d5a3a7418a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/OWWAProject/web/request'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=fljeoav4jmbmpj5vs0s79806g3; _csrf=55224628edfd8b2936bb26926b0869f6720dba03a75d951ab8e6cca1855cb470a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22L-bx6OUE-m1KG3dGpeuPnyetjzNEjD4c%22%3B%7D; _identity=c3022361eb9db04f98717741de5a07b93354ebe132012486b2d6be7d5a3a7418a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_DNT' => '1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Agustine\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/OWWAProject/web/index.php'
+    'REMOTE_PORT' => '55976'
+    'REDIRECT_URL' => '/OWWAProject/web/request/request-form'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/OWWAProject/web/request/request-form'
+    'SCRIPT_NAME' => '/OWWAProject/web/index.php'
+    'PHP_SELF' => '/OWWAProject/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491433427.524
+    'REQUEST_TIME' => 1491433427
+]
+2017-04-06 01:04:06 [::1][1][fljeoav4jmbmpj5vs0s79806g3][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: options' in C:\xampp\htdocs\OWWAProject\views\request\requestForm.php:146
+Stack trace:
+#0 C:\xampp\htdocs\OWWAProject\views\request\requestForm.php(146): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 146, Array)
+#1 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\RequestController))
+#4 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('requestForm', Array, Object(app\controllers\RequestController))
+#5 C:\xampp\htdocs\OWWAProject\controllers\RequestController.php(40): yii\base\Controller->render('requestForm', Array)
+#6 [internal function]: app\controllers\RequestController->actionRequestForm()
+#7 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('request-form', Array)
+#10 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('request/request...', Array)
+#11 C:\xampp\htdocs\OWWAProject\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\OWWAProject\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2017-04-06 01:04:06 [::1][1][fljeoav4jmbmpj5vs0s79806g3][info][application] $_COOKIE = [
+    'PHPSESSID' => 'fljeoav4jmbmpj5vs0s79806g3'
+    '_csrf' => '55224628edfd8b2936bb26926b0869f6720dba03a75d951ab8e6cca1855cb470a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"L-bx6OUE-m1KG3dGpeuPnyetjzNEjD4c\";}'
+    '_identity' => 'c3022361eb9db04f98717741de5a07b93354ebe132012486b2d6be7d5a3a7418a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/OWWAProject/web/request'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=fljeoav4jmbmpj5vs0s79806g3; _csrf=55224628edfd8b2936bb26926b0869f6720dba03a75d951ab8e6cca1855cb470a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22L-bx6OUE-m1KG3dGpeuPnyetjzNEjD4c%22%3B%7D; _identity=c3022361eb9db04f98717741de5a07b93354ebe132012486b2d6be7d5a3a7418a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_DNT' => '1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Agustine\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/OWWAProject/web/index.php'
+    'REMOTE_PORT' => '55998'
+    'REDIRECT_URL' => '/OWWAProject/web/request/request-form'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/OWWAProject/web/request/request-form'
+    'SCRIPT_NAME' => '/OWWAProject/web/index.php'
+    'PHP_SELF' => '/OWWAProject/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491433446.758
+    'REQUEST_TIME' => 1491433446
+]

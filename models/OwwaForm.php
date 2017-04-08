@@ -19,7 +19,7 @@ class OwwaForm extends Model
 
 	public function createRequest()
 	{
-		$case = new RecordsCase();
+		
 		$filedCases = new RecordsDocument();
 		$filedCases = new RecordsEmployer();
 		$request = new RecordsRequest();
@@ -28,20 +28,21 @@ class OwwaForm extends Model
 		$filedCases = new AcquaintanceAbroad();
 		$filedCases = new OFW();
 		
-		$request
+		$request->user_id = Yii::$app->user->id;
+		$request->date = $this->dateFiled;
+		var_dump($this->familyName);
 		
-		if($filedCases->save())
-		{
-			$id = $filedCases->id;
-
-			foreach ($this->natureOfCase as  $value) {
-				$caseRecord = new CaseRecord();
-				$caseRecord->nature_of_case_id = $value;
-				$caseRecord->filed_case_id = $id;
-				$caseRecord->save();
-				unset($caseRecord);
-			}
-		}
+		// if($request->save())
+		// {
+		// 	$wcNumber = $request->wcNumber;
+		// 	foreach ($this->natureOfCase as  $value) {
+		// 		$case = new RecordsCase();
+		// 		$case->case_detail = $value;
+		// 		$case->wcNumber = $wcNumber;
+		// 		$case->save();
+		// 		unset($caseRecord);
+		// 	}
+		// }
 	}
 
 	public function getCaseNumber()

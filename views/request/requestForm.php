@@ -60,7 +60,7 @@ $this->title = 'OWWA Web Help System';
                         'inputOptions' => [
                         'placeholder' => $model->getAttributeLabel( 'dateFiled' ),
                         'disabled' => true,
-                        'value' => date('m/d/Y'),
+                        'value' => date('Y-m-d'),
                         'style' => 'cursor: pointer; background-color: white'
                         ]
                       ])->textInput()?>
@@ -69,8 +69,7 @@ $this->title = 'OWWA Web Help System';
                 <div class="col-sm-6" >
                   <?= $form->field($model,'welfareCaseNumber',[
                         'inputOptions' => [
-                        'placeholder' => $model->getAttributeLabel( 'welfareCaseNumber' ),
-                        'value' => $wcNumber+1
+                        'placeholder' => $model->getAttributeLabel( 'welfareCaseNumber' )
                         ]
                       ])->textInput()?>
                 </div>
@@ -144,7 +143,16 @@ $this->title = 'OWWA Web Help System';
                     'class' => 'checkbox',
                     'style' => 'font-size:0.8em'
                   ]
-                ])->checkboxList($options,[
+                ])->checkboxList([
+                
+                 'a' => 'Proof of Relationship',
+                  'b' => 'Latest letter/e-mail',
+                  'c' => 'Employmet Contract',
+                  'd' => 'OWWA OR/COC',
+                  'e' => 'Latest OEC/OFW Info',
+                  'f' => 'Passport Copy',
+                  'g' => 'Others'
+                ],[
                 'item' => function($index, $label, $name, $checked, $value) {
                                     $return = '<div class="col-sm-4">';
                                     $return .= '<label class="checkbox-inline">';
@@ -322,7 +330,7 @@ $this->title = 'OWWA Web Help System';
                       'removeButton' => false,
                       'pluginOptions' => [
                           'autoclose'=>true,
-                          'format' => 'mm/dd/yyyy'
+                          'format' => 'mm-dd-yyyy'
                           ]
                       ]);
                 ?> 
@@ -522,7 +530,7 @@ $this->title = 'OWWA Web Help System';
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-sm-12 text-center">
-                            <label># <span><?php echo ++$wcNumber;?></span></label>
+                           
                         </div>
                     </div>
                     <div class="row text-center">
@@ -536,8 +544,6 @@ $this->title = 'OWWA Web Help System';
            </div>
        </div>
        </div>
-
-
    </div>
 </div>
 <?php ActiveForm::end() ?>

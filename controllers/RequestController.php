@@ -5,9 +5,8 @@ use Yii;
 use yii\web\Controller;
 use yii\helpers\ArrayHelper;
 use app\models\OwwaForm;
-use app\models\NatureOfCase;
 use app\models\User;
-use app\models\RecordsCase;
+
 
 class RequestController extends Controller
 {
@@ -22,15 +21,14 @@ class RequestController extends Controller
     {
     	
     	$model = new OwwaForm();
-        $record = RecordsCase::find()->count();
+
 
         $user = User::find()
             ->where(['id' => Yii::$app->user->id])
             ->one();
 
-        $cases = NatureOfCase::find()->all();
-        $options = ArrayHelper::map($cases, 'id', 'case_name');
-
+      //  $cases = NatureOfCase::find()->all();
+     //   $options = ArrayHelper::map($cases, 'id', 'case_name');
 
         if($model->load(Yii::$app->request->post()))
         {
@@ -38,9 +36,7 @@ class RequestController extends Controller
         }
         return $this->render('requestForm',
                ['model' => $model,
-                'options' => $options,
-                'user' => $user,
-                'wcNumber' => $record
+                'user' => $user
         ]);
     }
 }
